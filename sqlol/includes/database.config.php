@@ -16,12 +16,12 @@ You should have received a copy of the GNU General Public License along with thi
 //Choose the appropriate type of database here
 
 //Choose me for MySQL
-$dbtype = 'mysqli';
+$dbtype = 'mysql';
 $server = '127.0.0.1';
 $port = '3306';
 $username = 'root';
-$password = 'default_mcir_db_password';
-$database = 'sqlol';
+$password = 'test';
+$database = 'db';
 $persist = '';
 
 $hostspec = $username.':'.$password.'@'.$server.':'.$port;
